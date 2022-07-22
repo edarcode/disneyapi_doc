@@ -4,7 +4,7 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar:vertical {
 	width: 5px;
-	background-color: var(--blue);
+	/* background-color: var(--blue); */
 }
 
 body::-webkit-scrollbar-thumb {
