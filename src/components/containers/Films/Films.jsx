@@ -21,32 +21,32 @@ export default function Films() {
 						<tr>
 							<td>id</td>
 							<td>INTEGER</td>
-							<td>Identificador único para cada tupla </td>
+							<td>Identificador único para cada pelicula / serie </td>
 						</tr>
 						<tr>
 							<td>title</td>
 							<td>STRING</td>
-							<td>Nombre de cada tupla</td>
+							<td>Nombre de cada pelicula / serie</td>
 						</tr>
 						<tr>
 							<td>creationDate</td>
 							<td>ONLYDATE</td>
-							<td>Fecha de creación para cada tupla</td>
+							<td>Fecha de creación para cada pelicula / serie</td>
 						</tr>
 						<tr>
 							<td>score</td>
 							<td>REAL</td>
-							<td>Calificación para cada tupla de 1 a 5</td>
+							<td>Calificación para cada pelicula / serie de 1 a 5</td>
 						</tr>
 						<tr>
 							<td>img</td>
 							<td>STRING</td>
-							<td>Img para cada tupla</td>
+							<td>Link para img de cada pelicula / serie</td>
 						</tr>
 						<tr>
 							<td>type</td>
 							<td>ENUM (&quot;movie&quot;,&quot;serie&quot;)</td>
-							<td>Indica el tipo de cada tupla (película o serie)</td>
+							<td>Tipo de cada tupla (pelicula o serie).</td>
 						</tr>
 					</tbody>
 				</table>
@@ -86,7 +86,7 @@ export default function Films() {
 
 					<li className={css["films__list-item"]}>
 						<span className="special_word">films:</span>{" "}
-						<p>Información de cada tupla (películas / series).</p>
+						<p>Información de cada tupla (película / serie).</p>
 					</li>
 				</ul>
 				<img src="/doc/get_all_films.png" alt="consultar todas las films" />
@@ -107,21 +107,14 @@ export default function Films() {
 				<h2>GET Film (detalle)</h2>
 				<p>
 					Consultar detalle de una película o serie junto a los personajes
-					asociados. Se tomará como parámetro el valor espeficado al final.
+					asociados. Se tomará como parámetro (idFilm) el valor espeficado al
+					final.
 				</p>
 				<p className="endpoint">https://disneyapi2022.herokuapp.com/movies/1</p>
 				<img
 					src="/doc/get_detail_film.png"
 					alt="consultar detalle de una film"
 				/>
-			</article>
-			<article className="article">
-				<h2>DELETE Film</h2>
-				<p>Destruir una película / serie</p>
-				<p className="endpoint">
-					https://disneyapi2022.herokuapp.com/movies?id=1
-				</p>
-				<img src="/doc/destroy_film.png" alt="eliminar una film" />
 			</article>
 			<article className="article">
 				<h2>PUT Film</h2>
@@ -132,6 +125,14 @@ export default function Films() {
 				</p>
 				<p className="endpoint">https://disneyapi2022.herokuapp.com/movies</p>
 				<img src="/doc/update_film.png" alt="actualizar una tupla de film" />
+			</article>
+			<article className="article">
+				<h2>DELETE Film</h2>
+				<p>Destruir una película / serie</p>
+				<p className="endpoint">
+					https://disneyapi2022.herokuapp.com/movies?id=1
+				</p>
+				<img src="/doc/destroy_film.png" alt="eliminar una film" />
 			</article>
 		</div>
 	);

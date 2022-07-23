@@ -33,17 +33,17 @@ export default function Auth() {
 						<tr>
 							<td>id</td>
 							<td>int</td>
-							<td>Identificador único para cada tupla </td>
+							<td>Identificador único para cada usuario </td>
 						</tr>
 						<tr>
 							<td>email</td>
 							<td>string (email)</td>
-							<td>Email de cada tupla</td>
+							<td>Email único de cada usuario</td>
 						</tr>
 						<tr>
 							<td>password</td>
 							<td>string</td>
-							<td>Contraseña encriptada para cada tupla</td>
+							<td>Contraseña encriptada de cada usuario</td>
 						</tr>
 					</tbody>
 				</table>

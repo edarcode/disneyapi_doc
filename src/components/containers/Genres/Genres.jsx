@@ -21,17 +21,17 @@ export default function Genres() {
 						<tr>
 							<td>id</td>
 							<td>int</td>
-							<td>Identificador único para cada tupla </td>
+							<td>Identificador único para cada género </td>
 						</tr>
 						<tr>
 							<td>name</td>
 							<td>string</td>
-							<td>Nombre de cada tupla</td>
+							<td>Nombre de cada género</td>
 						</tr>
 						<tr>
 							<td>img</td>
 							<td>string (url)</td>
-							<td>Link para img de c/tupla</td>
+							<td>Link para img de c/género</td>
 						</tr>
 					</tbody>
 				</table>
