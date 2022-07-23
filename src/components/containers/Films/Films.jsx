@@ -98,6 +98,10 @@ export default function Films() {
 					src="/doc/querys_get_all_films.png"
 					alt="filtros y ordenado de films"
 				/>
+				<p>
+					Combine tanto como desee, tenga presente que si ninguna tupla coincide
+					con la búsqueda la key films será un [ ].
+				</p>
 			</article>
 			<article className="article">
 				<h2>GET Film (detalle)</h2>
