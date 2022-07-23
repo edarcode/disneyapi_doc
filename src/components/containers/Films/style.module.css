@@ -6,7 +6,8 @@
 .films__list-item {
 	display: grid;
 	gap: 10px;
-	grid-template-columns: 110px 1fr;
+	grid-template-columns: 150px 1fr;
 	justify-items: start;
+	align-items: center;
 	list-style: none;
 }

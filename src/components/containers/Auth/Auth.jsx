@@ -3,7 +3,21 @@ import css from "./style.module.css";
 export default function Auth() {
 	return (
 		<div className="view">
-			<h1>Auth</h1>
+			<article className="article">
+				<h1>Auth</h1>
+				<p>
+					Para hacer uso de la api es necesario un{" "}
+					<a className={`${css.auth__quote} quote`} href="#register">
+						registro
+					</a>{" "}
+					por email , se enviará un correo anunciando el exito del registro.
+					Luego para obtener el token debe hacer un{" "}
+					<a className={`${css.auth__quote} quote`} href="#login">
+						login
+					</a>
+					. Recuerde enviar el token por headers.
+				</p>
+			</article>
 
 			<article className="article">
 				<h2>Modelo</h2>
@@ -36,7 +50,7 @@ export default function Auth() {
 			</article>
 
 			<article className="article">
-				<h2>POST Register</h2>
+				<h2 id="register">POST Register</h2>
 				<p>Crear registro de usuario.</p>
 				<p className="endpoint">
 					https://disneyapi2022.herokuapp.com/auth/register
@@ -44,7 +58,7 @@ export default function Auth() {
 				<img src="/doc/register.png" alt="register" />
 			</article>
 			<article className="article">
-				<h2>POST Login</h2>
+				<h2 id="login">POST Login</h2>
 				<p>Crear un token valido por 24h.</p>
 				<p className="endpoint">
 					https://disneyapi2022.herokuapp.com/auth/login
