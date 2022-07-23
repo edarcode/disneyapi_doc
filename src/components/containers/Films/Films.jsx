@@ -90,6 +90,14 @@ export default function Films() {
 					</li>
 				</ul>
 				<img src="/doc/get_all_films.png" alt="consultar todas las films" />
+				<p>
+					Opcional se puede enviar querys para filtrar u ordenar (type=tipoFilm,
+					name=nombre, genre=idGenero, order=ASC|DESC )
+				</p>
+				<img
+					src="/doc/querys_get_all_films.png"
+					alt="filtros y ordenado de films"
+				/>
 			</article>
 			<article className="article">
 				<h2>GET Film (detalle)</h2>
