@@ -3,7 +3,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar:vertical {
-	width: 5px;
+	width: 8px;
 	/* background-color: var(--blue); */
 }
 

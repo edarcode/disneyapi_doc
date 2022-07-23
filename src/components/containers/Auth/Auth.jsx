@@ -59,7 +59,7 @@ export default function Auth() {
 			</article>
 			<article className="article">
 				<h2 id="login">POST Login</h2>
-				<p>Crear un token valido por 24h.</p>
+				<p>Crear token valido por 24h.</p>
 				<p className="endpoint">
 					https://disneyapi2022.herokuapp.com/auth/login
 				</p>

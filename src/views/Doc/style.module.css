@@ -1,3 +1,6 @@
 .doc {
 	padding: 25px;
 }
+.doc__intro {
+	margin-top: 10px;
+}
