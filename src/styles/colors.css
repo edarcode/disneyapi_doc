@@ -3,4 +3,7 @@
 	--black: hsl(0, 0%, 13%);
 	--fullBlack: hsl(0, 0%, 0%);
 	--blue: royalblue;
+	--purple: purple;
+	--softBlack: hsl(0, 0%, 18%);
+	--pink: hsl(299, 45%, 70%);
 }

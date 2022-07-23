@@ -9,3 +9,63 @@ body {
 		font-size: 2rem;
 	}
 }
+/* spacing */
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	border: 3px solid var(--purple);
+}
+
+th,
+td {
+	padding: 20px;
+	border: 3px solid var(--purple);
+	overflow-wrap: break-word;
+}
+h1 {
+	font-size: 4rem;
+}
+h2 {
+	font-size: 2.5rem;
+}
+.view {
+	display: grid;
+	gap: 25px;
+}
+.article {
+	display: grid;
+	justify-items: start;
+	gap: 15px;
+}
+.endpoint,
+h2 {
+	background-color: var(--softBlack);
+	color: var(--pink);
+	padding: 2px;
+	border-radius: 3px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.quote {
+	background-color: var(--pink);
+	display: inline-block;
+	padding: 8px;
+	border-radius: 3px;
+	color: var(--softBlack);
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+@media screen and (min-width: 1280px) {
+	table {
+		width: 60%;
+	}
+	table thead th:nth-child(1) {
+		width: 20%;
+	}
+
+	table thead th:nth-child(2) {
+		width: 20%;
+	}
+}
