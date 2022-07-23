@@ -8,6 +8,7 @@ export default function Header() {
 				<BoxLink to="/" text="Home" />
 				<BoxLink to="/auth" text="Auth" />
 				<BoxLink to="/genres" text="Genres" />
+				<BoxLink to="/films" text="Films" />
 			</nav>
 		</header>
 	);

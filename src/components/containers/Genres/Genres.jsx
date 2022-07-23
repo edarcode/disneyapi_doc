@@ -4,7 +4,7 @@ export default function Genres() {
 	return (
 		<div className="view">
 			<article className="article">
-				<h1>Genres</h1>
+				<h1>Géneros</h1>
 				<p>En total hay 4 genres</p>
 			</article>
 			<article className="article">

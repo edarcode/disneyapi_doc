@@ -1,0 +1,12 @@
+.films__list {
+	padding-left: 0;
+	display: grid;
+	gap: 5px;
+}
+.films__list-item {
+	display: grid;
+	gap: 10px;
+	grid-template-columns: 110px 1fr;
+	justify-items: start;
+	list-style: none;
+}

@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Auth from "../components/containers/Auth/Auth";
+import Films from "../components/containers/Films/Films";
 import Footer from "../components/containers/Footer/Footer";
 import Genres from "../components/containers/Genres/Genres";
 import Header from "../components/containers/Header/Header";
@@ -15,6 +16,7 @@ function App() {
 				<Route path="/" element={<Doc />}>
 					<Route path="genres" element={<Genres />} />
 					<Route path="auth" element={<Auth />} />
+					<Route path="films" element={<Films />} />
 				</Route>
 				<Route path="*" element={<NotFound />} />
 			</Routes>

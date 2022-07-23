@@ -49,13 +49,18 @@ h2 {
 	padding-right: 8px;
 }
 .quote {
-	background-color: var(--pink);
+	background-color: var(--violet);
 	display: inline-block;
 	padding: 8px;
 	border-radius: 3px;
-	color: var(--softBlack);
 	font-weight: bold;
 	font-size: 1.4rem;
+}
+.special_word {
+	background-color: var(--violet);
+	padding: 2px;
+	border-radius: 3px;
+	font-weight: bold;
 }
 @media screen and (min-width: 1280px) {
 	table {

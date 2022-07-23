@@ -1,6 +1,6 @@
 .header {
 	padding: 15px;
-	background-color: var(--purple);
+	background-color: var(--violet);
 }
 .header__nav {
 	display: flex;
