@@ -13,7 +13,7 @@ export default function Doc() {
 				y enviarlo por headers. Mas información en la sección Auth.
 			</p>
 			<article className={`${css.doc__intro} article`}>
-				<p>La api fue hecha solo con fines educativos 🥸.</p>
+				<p>La api fue hecha con fines educativos 🥸.</p>
 
 				<a
 					className="endpoint"
