@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Auth from "../components/containers/Auth/Auth";
+import Challenge from "../components/containers/Challenge/Challenge";
 import Characters from "../components/containers/Characters/Characters";
 import Films from "../components/containers/Films/Films";
 import Footer from "../components/containers/Footer/Footer";
@@ -15,6 +16,7 @@ function App() {
 			<Header />
 			<Routes>
 				<Route path="/" element={<Doc />}>
+					<Route path="" element={<Challenge />} />
 					<Route path="genres" element={<Genres />} />
 					<Route path="auth" element={<Auth />} />
 					<Route path="films" element={<Films />} />

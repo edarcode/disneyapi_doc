@@ -4,11 +4,6 @@ body {
 	font-family: sans-serif;
 }
 
-@media screen and (min-width: 1280px) {
-	body {
-		font-size: 2rem;
-	}
-}
 /* spacing */
 
 table {
@@ -62,6 +57,10 @@ h2 {
 	border-radius: 3px;
 	font-weight: bold;
 }
+.listOl {
+	display: grid;
+	gap: 40px;
+}
 @media screen and (min-width: 1280px) {
 	table {
 		width: 60%;
@@ -72,5 +71,8 @@ h2 {
 
 	table thead th:nth-child(2) {
 		width: 20%;
+	}
+	body {
+		font-size: 2rem;
 	}
 }

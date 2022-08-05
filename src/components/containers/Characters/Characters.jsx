@@ -71,26 +71,28 @@ export default function Characters() {
 					https://disneyapi2022.herokuapp.com/characters
 				</p>
 				<ul className={css.films__list}>
-					<li className={css["films__list-item"]}>
-						<span className="special_word">pageCount:</span>{" "}
-						<p>Cantidad de páginas.</p>
+					<li>
+						<span>pageCount: Cantidad de páginas.</span>
 					</li>
-					<li className={css["films__list-item"]}>
-						<span className="special_word">charactersPerPage:</span>{" "}
-						<p>Cantidad de personajes que se muestran por página.</p>
+					<li>
+						<span>
+							charactersPerPage: Cantidad de personajes que se muestran por
+							página.
+						</span>
 					</li>
-					<li className={css["films__list-item"]}>
-						<span className="special_word">charactersCount:</span>{" "}
-						<p>Cantidad de personajes que coinciden con la búsqueda.</p>
+					<li>
+						<span>
+							charactersCount: Cantidad de personajes que coinciden con la
+							búsqueda.
+						</span>
 					</li>
 
-					<li className={css["films__list-item"]}>
-						<span className="special_word">page:</span> <p>Página actual.</p>
+					<li>
+						<span>page: Página actual.</span>
 					</li>
 
-					<li className={css["films__list-item"]}>
-						<span className="special_word">characters:</span>{" "}
-						<p>Información de cada tupla (personaje).</p>
+					<li>
+						<span>characters: Información de cada tupla (personaje).</span>
 					</li>
 				</ul>
 				<img

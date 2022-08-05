@@ -66,27 +66,29 @@ export default function Films() {
 					por defecto se entrega la página 0.
 				</p>
 				<p className="endpoint">https://disneyapi2022.herokuapp.com/movies</p>
-				<ul className={css.films__list}>
-					<li className={css["films__list-item"]}>
-						<span className="special_word">pageCount:</span>{" "}
-						<p>Cantidad de páginas.</p>
+				<ul>
+					<li>
+						<span>pageCount: Cantidad de páginas.</span>
 					</li>
-					<li className={css["films__list-item"]}>
-						<span className="special_word">filmsPerPage:</span>{" "}
-						<p>Cantidad de películas / series que se muestran por página.</p>
+					<li>
+						<span>
+							filmsPerPage: Cantidad de películas / series que se muestran por
+							página.
+						</span>
 					</li>
-					<li className={css["films__list-item"]}>
-						<span className="special_word">filmsCount:</span>{" "}
-						<p>Cantidad de películas / series que coinciden con la búsqueda.</p>
+					<li>
+						<span>
+							filmsCount: Cantidad de películas / series que coinciden con la
+							búsqueda.
+						</span>
 					</li>
 
-					<li className={css["films__list-item"]}>
-						<span className="special_word">page:</span> <p>Página actual.</p>
+					<li>
+						<span>page: Página actual.</span>
 					</li>
 
-					<li className={css["films__list-item"]}>
-						<span className="special_word">films:</span>{" "}
-						<p>Información de cada tupla (película / serie).</p>
+					<li>
+						<span>films: Información de cada tupla (película / serie).</span>
 					</li>
 				</ul>
 				<img src="/doc/get_all_films.png" alt="consultar todas las films" />
